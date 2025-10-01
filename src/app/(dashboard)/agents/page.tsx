@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 import { ErrorBoundary } from "react-error-boundary";
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
 import { getQueryClient, trpc } from "@/trpc/server";
-import { AgentsListHeader } from "@/modules/auth/ui/components/agents-list-header";
+import { AgentsListHeader } from "@/modules/agents/ui/components/agents-list-header";
 
 import {
   AgentsView,
